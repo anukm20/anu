@@ -1,0 +1,50 @@
+.one h1{
+    text-align: center;
+    padding-top: 110px;
+    font-size: 3.75rem;
+    line-height: 1;
+    font-family: inter,helvetica neue,helvetica,arial,sans-self;
+    letter-spacing: -.05rem;
+    font-weight: 500;
+}
+.one span{
+    color: rgb(169 121 43);
+}
+.two h1{
+    text-align: center;
+    font-size: 3.75rem;
+    line-height: 1;
+    font-family: inter,halvetica neue,helvetica,arial,sens-serif;
+    letter-spacing: -.05rem;
+    font-weight: 500;
+}
+.three h1{
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: gray;
+}                                                  
+.six h1{
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 2.75rem;
+}
+.eight h1{
+    text-align: center;
+}
+.imm img{
+    width: 15rem;
+    height:15rem;
+     margin: auto;
+     background-color: white;
+     transition: 5s;
+}
+.imm img{
+    width:70%;
+    margin: 15px 0px;;
+}
+.ten h1{
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 2.75rem;
+}
