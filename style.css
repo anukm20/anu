@@ -1,38 +1,47 @@
-.one h1{
-    text-align: center;
-    padding-top: 110px;
+.one{
+    font-family: inter,helvetica neue,helvetica,arial,sans-serif;
     font-size: 3.75rem;
-    line-height: 1;
-    font-family: inter,helvetica neue,helvetica,arial,sans-self;
-    letter-spacing: -.05rem;
-    font-weight: 500;
 }
 .one span{
     color: rgb(169 121 43);
 }
-.two h1{
-    text-align: center;
-    font-size: 3.75rem;
-    line-height: 1;
-    font-family: inter,halvetica neue,helvetica,arial,sens-serif;
-    letter-spacing: -.05rem;
-    font-weight: 500;
+.title{
+    margin-left: 400px;
 }
-.three h2{
-    text-align: center;
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-    color: gray;
-}                          
-.six h1{
-    text-align: center;
+.oFd{
+    margin-left: 400px;
+}
+.one h1{
+    font-size: 65%;
+}
+.four{
+    font-size: 1.875rem;
+}   
+.six{
     font-size: 1.25rem;
     line-height: 2.75rem;
 }
+.navbar od{
+    font-family:Trebuchet MS,Lucida sans unicode,Lucida Grande,Lucida Sans,Arial,sans-serif;
+}
+.row{
+    width: 150px;
+    height: 250px;
+}
+.row .ten{
+    font-size: 1.5rem;
+    font-family: inter,helvetica neue,helvetica,arial,sans-serif;
+    color: rgb(75 85 99);
+    text-align: center;
+    margin-top: 40px;
+}
 .eight h1{
     text-align: center;
+    color: rgb(31 41 55);
+    font-size: 1.8rem;
+    font-family: Inter,helvetica neue,helvetica,arial,sans-serif;
 }
-.imm img{
+.imm{
     width: 15rem;
     height:15rem;
      margin: auto;
@@ -41,10 +50,42 @@
 }
 .imm img{
     width:70%;
-    margin: 15px 0px;;
+    margin: 15px 0px;
 }
-.ten h1{
-    margin: 0;
-    font-size: 1.25rem;
-    line-height: 2.75rem;
+.imm:hover{
+    box-shadow:rgb(0,0,0,0.35)0px 5px 15px;
+}
+.therow{
+    width: 800px;
+}
+.ruby h1{
+    font-size: 1.3rem;
+    color: gray;
+}
+.aa{
+    background-color: rgb(224,223,223);
+}
+.kt{
+    background-color: rgb(192,189,189);
+}
+.kt.nr{
+    text-align: center;
+    font-size: 1.8rem;
+    padding-bottom:70px;
+}
+.imn img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+}
+.rob h1{
+    font-size: 1.125rem;
+}
+.rob h3{
+    font-size: 1.125rem;
+}
+.nr{
+    padding-top: 30px;
+    color: rgb(31 41 55);
+    font-size: 1.8;
 }
