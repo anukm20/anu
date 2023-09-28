@@ -5,44 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-    .container{
-        background-color: aqua;
-        position: relative;
-        width:50%;
-    }
-    img{
-        width: 100%;
-
-    }
-    .child{
-        position: absolute;
-        padding: 5px 10px;
-        border: 1px solid black;
-        border-radius:10px;
-        transform:translate(-50%,-50%);
-        color: blue;
-        width: 10%;
-        left: 50%;
-        top: 50%;
-
-    }
-    button{
-        position: absolute;
-        left: 50%;
-        top: 50%;
-    }
+    .parent{
+        background-color: aquamarine;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items:start;
+        gap: 10px;
+        }
+        .child,.child1{
+            background-color: crimson;
+            border: 1.5px solid black;
+            padding: 10px;
+            height: 25%;
+            width: 200px;
+        }
     </style>
-    </head>
-    <body>
-        <div class="container">
-            <img src="./image/20230927064056_[fpdl.in]_motichoor-laddu_57665-1494_large.jpg" alt="">
-            <div class="child">
-                <button>start</button>
-                <h1>i'm waiting</h1>
-                <p>halo we are coming</p>
-        </div>
-        
-    </body>
-    
+
+</head>
+<body>
+    <div class="parent">
+        <div class="child"><img src="image/black-coffee-1185883.jpg" width="100%" height="100%"></div>
+        <div class="child"><img src="image/black-coffee-1185883.jpg" width="100%" height="100%"></div>
+        <div class="child"><img src="image/black-coffee-1185883.jpg" width="100%" height="100%"></div>
+        <div class="child"><img src="image/black-coffee-1185883.jpg" width="100%" height="100%"></div>
+    </div>
 </body>
 </html>

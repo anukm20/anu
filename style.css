@@ -5,17 +5,24 @@
 .one span{
     color: rgb(169 121 43);
 }
+/*
 .title{
     margin-left: 400px;
 }
 .oFd{
     margin-left: 400px;
 }
+*/
 .one h1{
     font-size: 65%;
 }
 .four{
     font-size: 1.875rem;
+}
+.three h6{
+    font-size: 1.5rem;
+    font-family: ;
+
 }   
 .six{
     font-size: 1.25rem;
