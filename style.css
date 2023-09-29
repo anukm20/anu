@@ -18,6 +18,7 @@
 }
 .four{
     font-size: 1.875rem;
+    padding-top:10px;
 }
 .three h6{
     font-size: 1.5rem;
@@ -33,7 +34,9 @@
 }
 .six{
     font-size: 1.25rem;
-    line-height: 2.75rem;
+    line-height: 1.75rem;
+    padding-bottom: 50px;
+    padding:20px;
 }
 .title{
     padding-left: 350px;
@@ -43,10 +46,14 @@
     font-family: Inter,Arial, Helvetica, sans-serif,Helvetica;
     color: rgb(117,117,117);
     text-align: center;
-    margin-top: 40px;
+    margin-top: 10px;
+    padding-bottom: 90px;
 }
-.ten he{
+.ten h6{
     padding-top: 50px;
+}
+.ten h4{
+    padding-top: 40px;
 }
 .eight h1{
     color: rgb(31 41 55);
@@ -131,11 +138,11 @@
     text-align: center;
     font-size: 1.2rem;
     padding-bottom: 70px;
-    color: rgb(233, 255, 251);
+    color: rgb(133, 133, 133);
 }
 .sprt{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.2rem;
     padding-top: 40px;
     padding-bottom: 20px;
 }
