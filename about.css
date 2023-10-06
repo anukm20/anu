@@ -7,8 +7,219 @@
 }
 
 .title{
-    margin-left: 200px;
+    margin-left: 370px;
+}
+.title .nam{
+    font-style: italic;
 }
 .oFd{
-    margin-left: 540px;
+    margin-left: 370px;
 }
+.heyy{
+    width: 65;
+    color: dimgray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1.75;
+ 
+}
+.heyy h5{
+    padding-left: 220px;
+}
+.hey{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-color: rgb(249 250 251);
+}
+.heey{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    line-height:1.7;
+}
+.heey h1{
+    font-size: 1.7rem;
+    padding-right: 95px;
+}
+.one h1{
+    font-size: 1.6rem;
+    padding-bottom: 20px;
+    padding-right: 400px;
+
+}
+.one img{
+    padding-left: 220px;
+    
+}
+.one h4{
+    font-size: 1.2rem;
+    color: darkgray;
+    font-weight: bold;
+    padding-right:110px;
+}
+.two{
+    padding-top: 50px;
+}
+.two img{
+    padding-left: 220px;
+    width: 19rem;
+}
+.two h1{
+    font-size: 1.6rem;
+    padding-bottom: 20px;
+    padding-right: 670px;
+}
+.two h4{
+    font-size: 1.2rem;
+    color: darkgray;
+    font-weight: bold;
+    padding-left:70px;
+    text-align: center;
+}
+.three{
+    padding-top: 50px;
+}
+.three img{
+    padding-left: 220px;
+    width: 19rem;
+}
+.three h1{
+    font-size: 1.6rem;
+    padding-bottom: 20px;
+    padding-right: 510px;
+}
+.three h4{
+    font-size: 1.2rem;
+    color: darkgray;
+    font-weight: bold;
+    padding-left:100px;
+    text-align: center;
+}
+.four{
+    padding-top: 50px;
+}
+.four img{
+    padding-left: 220px;
+    width: 19rem;
+}
+.four h1{
+    font-size: 1.6rem;
+    padding-bottom: 20px;
+    padding-right: 430px;
+}
+.four h4{
+    font-size: 1.2rem;
+    color: darkgray;
+    font-weight: bold;
+    padding-left:90px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.five{
+    background-color: rgb(234, 234, 234);
+    padding-bottom: 90px;
+}
+.five h1{
+    padding-top: 50px;
+}
+.six{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.seven{
+    padding-right: 20px;
+    margin-right: 15px;
+    padding-top: 20px;
+    width: 400px;
+    height: 120px;
+    margin-bottom: 60px;
+    padding-left: 50px;
+}
+.seven h1{
+    font-size: 1.8rem;
+}
+.seven h5{
+    font-size: 1.2rem;
+}
+.eight{
+    width: 100%;
+    margin: auto;
+}
+.nine{
+    width: 70%;
+    margin-right: 35px;
+    margin-left: 40px;
+
+}
+.eight h1{
+    font-size: 2rem;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-bottom: 50px;
+}
+.eight h5{
+    font-size: 1.5rem;
+    padding-top: 20px;
+    color: rgb(146, 145,145);
+}
+
+.sprt{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.opf{
+    text-align: center;
+    font-size: .955rem;
+    color: rgb(107 114 128);
+}
+.thelast{
+    padding-bottom: 80px;
+}
+.adc{
+    padding-right: 0px;
+}
+.adc .btn{
+    padding: 10px 15px;
+}
+.abc{
+    padding-left: 650px;
+}
+.abc .btn{
+    margin-left: 900px;
+    padding:10px 30px;
+}
+.final h1{
+    font-size: 1.2rem;
+}
+.twit{
+    display: inline;
+    width: 3.5rem;
+    padding-left: 1.5rem;
+}
+.fb{
+    display: inline;
+    width: 3.5rem;
+    padding-left: 1.5rem;
+
+}
+.gith{
+    display: inline;
+    width: 3.5rem;
+    padding-left: 1.5rem;
+}
+.disc{
+    display: inline;
+    width: 3.5rem;
+    padding-left: 1.5rem;
+}
+.wm{
+    font-size: .75rem;
+    color: rgb(975 85 99);
+    padding-left: 400px;
+    margin-bottom: 50px;
+}
+
+
+
