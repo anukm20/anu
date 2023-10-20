@@ -35,7 +35,7 @@
 
 
 """largest number"""
-ls=[2,4,5,8,10.20.7,1]
+#ls=[2,4,5,8,10.20.7,1]
 #def find_max(ls):
 #    return max(ls)
 #max=find_max(a,b,c)
@@ -49,8 +49,9 @@ ls=[2,4,5,8,10.20.7,1]
     
 
 """discount"""
-a=int(input("enter the amount: "))
-d=int(input("enter the discount: "))
-def discount(disc):
-    return (a/d)*100
-amount=discount(disc)   
+def discount(a,b):
+    c=int(input("enter the amount: "))
+    d=int(input("enter the discount: "))
+    return (c/d)*100
+amt=discount(a,b)
+print("the amount is:",a-amt)   
