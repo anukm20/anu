@@ -54,4 +54,4 @@ def discount(a,b):
     d=int(input("enter the discount: "))
     return (c/d)*100
 amt=discount(a,b)
-print("the amount is:",a-amt)   
+print("the amount is:",c-amt)   
