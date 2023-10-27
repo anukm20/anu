@@ -49,9 +49,34 @@
     
 
 """discount"""
-def discount(a,b):
-    c=int(input("enter the amount: "))
-    d=int(input("enter the discount: "))
-    return (c/d)*100
-amt=discount(a,b)
-print("the amount is:",c-amt)   
+# def discount(a,b):
+#     c=int(input("enter the amount: "))
+#     d=int(input("enter the discount: "))
+#     return (c/d  d)*100
+# amt=discount(a,b)
+# print("the amount is:",c-amt)  
+
+
+
+"""reverse string"""
+# def reverse(s):
+#     str=""
+#     for i in s:
+#         str=i+str
+#     return str
+# s="anuragarya"
+# print("the original string is: ")
+# print(s)
+# print("the reversed string is: ")
+# print(reverse(s))
+
+
+
+""""power"""
+base=3
+exponent=3
+result=1
+while exponent !=0:
+    result*=base
+    exponent-=1
+print("answer ="+str(result))
