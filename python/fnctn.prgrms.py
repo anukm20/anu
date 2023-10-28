@@ -73,10 +73,18 @@
 
 
 """"power"""
-base=3
-exponent=3
-result=1
-while exponent !=0:
-    result*=base
-    exponent-=1
-print("answer ="+str(result))
+# base=3
+# exponent=3
+# result=1
+# while exponent !=0:
+#     result*=base
+#     exponent-=1
+# print("answer ="+str(result))
+
+
+"""vowels"""
+s=str(input("enter the string: "))
+print("string is: ",s)
+vowels="aeiouAEIOU"
+count=sum(s.count(vowel)for vowel in vowels)
+print("number of vowels=: ",count)
