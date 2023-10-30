@@ -49,12 +49,13 @@
     
 
 """discount"""
-# def discount(a,b):
-#     c=int(input("enter the amount: "))
-#     d=int(input("enter the discount: "))
-#     return (c/d  d)*100
-# amt=discount(a,b)
-# print("the amount is:",c-amt)  
+def discount():
+    c=int(input("enter the amount: "))
+    d=int(input("enter the discount: "))
+    disc=(c*d)/100
+    amt=c-disc
+    return amt
+print("the amount is:",discount())  
 
 
 
@@ -91,7 +92,7 @@
 
 
 """prime number"""
-# a=int(input("enter the number: "))
+# a=int(input("enter the number"))
 # def prime(a):
 #     if (a==1):
 #         return False
@@ -105,4 +106,10 @@
 # print(prime(a))
 
 
-"""list"""
+
+
+"""lists"""
+# ls1=[1,3,5,7,9]
+# ls2=[2,4,6,8,10]
+# concatenated_list=ls1+ls2
+# print("concatenated list: ",concatenated_list)
