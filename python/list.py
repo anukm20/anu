@@ -11,5 +11,5 @@ ls=[1,7,2,5,8,4,3,6]
 #ls.sort()
 #ls.reverse()
 #ls.clear()
-ls=(type(ls))
+#ls=(type(ls))
 print(ls)
