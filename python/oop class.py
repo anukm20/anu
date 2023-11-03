@@ -114,6 +114,86 @@
 
 
 """prgm"""
+class libraryitem:
+    def title(self):
+        print("voice of nature")
+    def author(self):
+        print("mark john")
+    def id(self):
+        print(201202) 
+class book(libraryitem):
+    def no_of_pages(self):
+        print("420")
+    def read_book(self):
+        print("reading the book")
+class dvd(libraryitem):
+    def duration(self):
+        print("4 hours")
+    def dvd_play(self):
+        print("playing the dvd")
+
+b=book()
+b.author()
+b.id()
+b.no_of_pages()
+b.read_book()
+b.title()
+
+c=dvd()
+c.duration()
+c.dvd_play()
+             
+
+
+ 
+"""encapsulation private"""
+# class bank:
+#     def __init__(self,accno,__savings):
+#         self.accno=accno
+#         self.savings=__savings
+#     def deposit(self,dep):
+#         self.savings+=dep
+#     def display(self):
+#         print("savings=",self.savings)
+        
+# akku=bank(9995833724,10000)
+# akku.deposit(2000)
+# akku.display()
+
+
+"""protected"""
+# class A:
+#     _a=10
+#     def disp(self):
+#         print(self._a)
+# obj=A()
+# obj.disp()
+# print(obj._a)
+
+
+
+"""abstract"""
+# from abc import ABC,abstractmethod
+# class vehicle(ABC):
+#     def engine(self):
+#         print("engine provide")
+#     @abstractmethod
+#     def gear(self):
+#         pass
+# class car(vehicle):
+#     def gear(self):
+#         print("automatic gear")
+# class truck(vehicle):
+#     def wheel(self):
+#         print("heavy")
+#     def gear(self):
+#         print("manuel gear")
+# akku=car()
+# akku.gear()
+# ar=truck()
+# ar.gear()
+  
+        
 
 
 
