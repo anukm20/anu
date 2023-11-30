@@ -27,10 +27,43 @@
 
 
 """ """
+# import re
+# terms="^anurag+$"
+# a=re.search(terms,"anuraggg")
+# if a:
+#     print("matched")
+# else:
+#     print("not matched")
+
+
+"""date"""
+# import re
+# a=str(input("enter tha date: "))
+# terms="^[012]\d|3[01]-[0]\d|1[012]-\d{4}$"
+# b=re.search(terms,a)
+# if b:
+#     print("valid")
+# else:
+#     print("not valid")
+
+
+"""date ZERO not"""
+# import re
+# a=str(input("enter tha date: "))
+# terms="^([^00]|[0][1,9]|[12][1,9]|3[1]|[123][0])(-|.|/)([^00]|[0][1,9]|1[012])(-|.|/)([^0000]\d{4})$"
+# b=re.search(terms,"11-11-0000")
+# if b:
+#     print("valid")
+# else:
+#     print("not valid")
+
+
+"""email validation"""
 import re
-terms="^anurag+$"
-a=re.search(terms,"anuraggg")
-if a:
-    print("matched")
+a=str(input("enter tha email: "))
+terms="^([a-zA-Z]{12}\d{3})[@]([a-z]{10}[.])([in]|[com])$"
+b=re.search(terms,a)
+if b:
+    print("valid")
 else:
-    print("not matched")
+    print("not valid")
