@@ -6,15 +6,16 @@ calc.title("Calculator")
 def btnclk(item):
     global expression
     expression=expression+str(item)
-    input.set("expression")
+    input.set(expression)
 def btnclr():
     global expression
     expression=""
-    input.set(expression)
+    input.set("")
 def btneql():
     global expression
     result=str(eval(expression))
     input.set(result)
+    expression=""
     expression=""
     input=StringVar()
     frame=Frame(calc,width=320,height=52,bd=0,highlightbackground="black",highlightcolor="black",highlightthickness=2)
@@ -25,7 +26,7 @@ def btneql():
     btns_frame=Frame(calc,width=312,height=272.5,bg="gray")
     btns_frame.pack()
     
-btn1=Button(calc,text='1',fg='white',bg='gray',command=lambda:btnclk(1),height=1,width=7)
+clr=Button(Frame,text='clr',fg='white',width=32,height=3,bd=0,bg="#eee",cursor="hand2",command=lambda:btnclr()).grid(row=0,column=o,columnspan=3,padx=1,pady=1)
 btn1.grid(row=2,column=0)
 btn2=Button(calc,text='2',fg='white',bg='gray',command=lambda:btnclk(2),height=1,width=7)
 btn2.grid(row=2,column=1)
