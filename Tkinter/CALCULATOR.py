@@ -21,7 +21,7 @@ if __name__=="__main__":
     calc=Tk()
     calc.configure(background="light green")
     calc.title("Calculator")
-    calc.geometry("270*150")
+    calc.geometry("270x150")
     equation=StringVar()
     expression.grid(columspan=4,ipadx=70)
 
